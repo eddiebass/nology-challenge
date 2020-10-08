@@ -1,0 +1,113 @@
+@media screen and (max-width: 800px) {
+    body {
+        line-height: 1.5;
+    }
+    h2 {
+    color: #0477BF;
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+p,
+label {
+    font-size: .8rem;
+}
+
+.header {
+    background-image: linear-gradient(to right bottom, #0477BF, #04B2D9, #0468BF);
+    height: 85vh;
+}
+
+.my-logo {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.logo {
+    height: 2rem;
+}
+
+.top-header {
+   font-size: 1.2rem;
+}
+
+.heading-main-name {
+    font-size: 2.5rem;
+}
+.btn-header {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+}
+
+.section-goals {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+}
+
+.section-box-1 {
+    width: 100%;
+}
+
+.section-box-2 {
+    width: 100%;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.my-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+.box {
+    width: 100%;
+    margin-top: .1rem;
+}
+
+.photo-container {
+    width: 17%;
+    margin: 0 auto;
+}
+
+.container-portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-portfolio {
+    width: 100%;
+    margin-bottom: 1.8rem;
+}
+
+.gallery {
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+}
+
+input[type=submit] {
+    padding: 1rem 2.6rem;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+}
