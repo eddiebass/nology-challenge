@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Raleway:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Raleway:wght@100;200;300;400&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="vendors/grid.css">
     <link rel="stylesheet" href="css/queries.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>My journey to become a software developer</title>
 </head>
 
@@ -18,6 +21,11 @@
     <header class="header">
         <div class="my-logo">
             <img src="css/img/cat.svg" alt="logo" class="logo">
+        </div>
+
+        <div class="display-time">
+            <div id="time" class="my-time"></div>
+            <div id="greetings"></div>
         </div>
 
         <div class="header-text-box">
@@ -53,25 +61,31 @@
                 <h2>
                     Ratings
                 </h2>
-                <h4 class="utilities-h4-pad">HTML5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons icons-m unchecked">star</i>
+                <h4 class="utilities-h4-pad">HTML5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                        class="material-icons icons-m unchecked">star</i>
                     <i class="material-icons icons-m unchecked">star</i>
                     <i class="material-icons icons-m unchecked">star</i>
                     <i class="material-icons icons-m unchecked">star</i>
                     <i class="material-icons icons-m unchecked">star_outline</i>
                 </h4>
-                <h4 class="utilities-h4-pad">CSS3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons icons-m unchecked">star</i>
+                <h4 class="utilities-h4-pad">CSS3
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                        class="material-icons icons-m unchecked">star</i>
                     <i class="material-icons icons-m unchecked">star</i>
                     <i class="material-icons icons-m unchecked">star_half</i>
                     <i class="material-icons icons-m unchecked">star_outline</i>
                     <i class="material-icons icons-m unchecked">star_outline</i>
                 </h4>
-                <h4 class="utilities-h4-pad">Javascript &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons icons-m unchecked">star</i>
+                <h4 class="utilities-h4-pad">Javascript &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                        class="material-icons icons-m unchecked">star</i>
                     <i class="material-icons icons-m unchecked">star</i>
                     <i class="material-icons icons-m unchecked">star_outline</i>
                     <i class="material-icons icons-m unchecked">star_outline</i>
                     <i class="material-icons icons-m unchecked">star_outline</i>
                 </h4>
-                <h4 class="utilities-h4-pad">Ruby &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons icons-m unchecked">star</i>
+                <h4 class="utilities-h4-pad">Ruby
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                        class="material-icons icons-m unchecked">star</i>
                     <i class="material-icons icons-m unchecked">star</i>
                     <i class="material-icons icons-m unchecked">star_half</i>
                     <i class="material-icons icons-m unchecked">star_outline</i>
@@ -86,18 +100,26 @@
                 <img src="css/img/atoms.svg" alt="dynamic" class="photo-container">
                 <h2>Dynamic</h2>
                 <p>
-                    A dynamic website offers an advanced interface to users for a seamless interaction, and with the latest technologies and trends website don't have to be static. I will like to develop website that can integrate useful and advanced features
+                    A dynamic website offers an advanced interface to users for a seamless interaction, and with the
+                    latest technologies and trends website don't have to be static. I will like to develop website that
+                    can integrate useful and advanced features
                 </p>
             </div>
             <div class="box">
                 <img src="css/img/device.svg" alt="responsive" class="photo-container">
                 <h2>Responsive</h2>
-                <p>Responsive web design is an approach to web development that makes web pages render seamlessly on a variety of devices and window or screen sizes. Responsive web design has become more important as the amount of mobile traffic now accounts for more than half of total internet traffic. My layouts will work on any device, big or small.</p>
+                <p>Responsive web design is an approach to web development that makes web pages render seamlessly on a
+                    variety of devices and window or screen sizes. Responsive web design has become more important as
+                    the amount of mobile traffic now accounts for more than half of total internet traffic. My layouts
+                    will work on any device, big or small.</p>
             </div>
             <div class="box">
                 <img src="css/img/user-interface.svg" alt="user experience" class="photo-container">
                 <h2>User Friendly</h2>
-                <p>I want to build apps that will be accessible to everyone. The user-friendliness of an app/website makes up one of the main components of software ergonomics. A flawless set-up of all the page’s content is crucial for guaranteeing smooth user experience. Everybody likes sleek and orderly design</p>
+                <p>I want to build apps that will be accessible to everyone. The user-friendliness of an app/website
+                    makes up one of the main components of software ergonomics. A flawless set-up of all the page’s
+                    content is crucial for guaranteeing smooth user experience. Everybody likes sleek and orderly design
+                </p>
             </div>
 
         </div>
@@ -192,5 +214,9 @@
             <p>Copyright &copy; 2020 by Eddie</p>
         </div>
     </footer>
+    <script src="js/main.js"></script>
+    <script src="js/newFile.js"></script>
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
-</body></html>
+</body>
+
+</html>

@@ -34,6 +34,13 @@ label {
     height: 2rem;
 }
 
+.display-time { position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: #FFF;
+    font-size: .7rem;
+}
+
 .top-header {
    font-size: 1.2rem;
 }
